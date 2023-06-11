@@ -8,3 +8,33 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+button {
+  background-color: #f4f4f4;
+  color: #242424;
+  padding: 5px 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 0 #00000069;
+  text-transform: uppercase;
+  transition: all .2s;
+}
+
+button:hover {
+  background-color: #494949;
+  color: #f4f4f4;
+  border: 1px solid #494949;
+  box-shadow: 0 0 20px #00000069;
+}
